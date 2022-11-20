@@ -1,0 +1,169 @@
+//* ------------ every default section -------------
+@mixin primary-Settings {
+  margin: 0 auto;
+  width: 80%;
+}
+
+// *! -------- NAVBAR SIZE --------
+
+@mixin navText {
+  color: $white-clr;
+  font: {
+    family: $poppins;
+    size: 1.375rem;
+    weight: 600;
+  }
+  letter-spacing: 0.03em;
+}
+
+// *!--------- HERO TEXT SIZE ---------
+
+// *------- hero title -------
+@mixin title {
+  letter-spacing: 0.03em;
+  font: {
+    family: $poppins;
+    weight: 300;
+    size: clamp(1.575rem, 3vw, 2.5rem); //*  48px 2.3rem
+  }
+}
+//* -------- hero subtitle --------
+@mixin sub-title {
+  font: {
+    size: clamp(1.1rem, 2vw, 1.625rem); //* 1.6rem
+    weight: 600;
+    family: $poppins;
+  }
+  color: $white-clr;
+  letter-spacing: 0.04em;
+}
+
+// * ----- SECOND HERO MIXINS ----
+@mixin second-title {
+  letter-spacing: 0.05em;
+  font: {
+    family: "Poppins", sans-serif;
+    weight: 500;
+    size: clamp(1.875rem, 4vw, 2.7rem); //*  48px 2.3rem
+  }
+}
+@mixin second-sub-title {
+  font: {
+    size: clamp(1.1rem, 2vw, 1.4rem); //* 1.6rem
+    weight: 600;
+    family: $poppins;
+  }
+}
+
+// !----------- INFO BANNER ---------
+
+// ? ------ BIG NUMBER -----
+@mixin spanNumber {
+  font: {
+    size: clamp(1.6875rem, 5vw, 2.7rem); // 2.7rem
+    weight: 500;
+    family: $poppins;
+  }
+  color: $banner-clr;
+}
+
+// ? ------ TEXT OF INFO BANNER -------
+
+@mixin p-banner {
+  font: {
+    weight: 600;
+    size: clamp(1rem, 3vw, 1.25rem);
+    family: $poppins;
+  }
+  letter-spacing: 0.03em;
+  color: $white-clr;
+}
+
+// ! ---------- SECTIONS --------
+
+@mixin underlineAfter($color: $black-clr, $width: 6rem) {
+  content: "";
+  position: relative;
+  width: clamp($width, 10vw, 10rem);
+  text-align: center;
+  background-color: $color;
+  display: block;
+  height: 5px;
+  margin: 0 auto;
+  margin-top: 0.45rem;
+  border-radius: 15px;
+}
+
+// *? ------------ GRID SECTION --------------
+@mixin gridSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "image1 text1";
+  justify-items: center;
+  gap: 2rem;
+}
+
+// ?----------- SECTION FONT TITLE AND SUB TITLE -----------
+@mixin sectionTitle {
+  font: {
+    family: $roboto;
+    weight: 600;
+    size: clamp(1.25rem, 4.5vw, 1.675rem);
+  }
+  letter-spacing: 0.03em;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+@mixin sectionText {
+  font: {
+    family: $poppins;
+    weight: 400;
+    size: clamp(1.0625rem, 3vw, 1.25rem); // 1.2rem
+  }
+  // line-height: 1.5625rem;
+  letter-spacing: 0.04em;
+}
+
+// ! ------------ Menu Paragraph ----------
+
+@mixin lever-head {
+  font: {
+    size: clamp(0.75rem, 5vw, 1.5625rem);
+    weight: 600;
+    family: $poppins;
+  }
+  letter-spacing: 0.04rem;
+}
+
+@mixin menu-text {
+  font: {
+    size: clamp(1.0625rem, 2.5vw, 1.545rem);
+    weight: 600;
+    family: $poppins;
+  }
+  letter-spacing: 0.04em;
+  // line-height: 2.4375rem;
+}
+
+@mixin price-text {
+  font: {
+    family: $roboto;
+    weight: 400;
+    size: clamp(0.75rem, 3vw, 1.125rem);
+  }
+  line-height: 0.875rem;
+}
+
+// ? ---- opened header ----
+
+@mixin days-hours {
+  font: {
+    family: $poppins;
+    weight: 500;
+    size: clamp(1.0625rem, 4.5vw, 1.4875rem); //
+  }
+  letter-spacing: 0.04em;
+  color: $black-clr;
+}

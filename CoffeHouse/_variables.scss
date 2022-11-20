@@ -1,0 +1,54 @@
+// --------- COLORS ---------
+
+$nav-bg-color: linear-gradient(
+  90deg,
+  rgba(21, 21, 21, 0.81) 38.04%,
+  rgba(35, 35, 35, 0.81) 46.22%
+);
+
+$nav-bg-mobile: linear-gradient(
+  130deg,
+  rgba(16, 16, 16, 0.95) 48.04%,
+  rgba(35, 35, 35, 0.95) 76.22%
+);
+
+// ? ---- TEXT COLOR ---
+$white-clr: #fffcf6;
+$black-clr: #191919;
+
+$title-clr: #fffeee;
+
+$second-title-clr: #a48867;
+
+$banner-clr: #e7c095;
+// #ffa53d #e1bb8f
+
+// 33af92
+$hover-nav-clr: #b4926e; // #03ad74 #A48867
+$hover-button: #222831;
+
+// ? cta button
+$cta-button: #ece8e3; //039665 00d992 01bc7f
+$cta-hover-btn: #f3d5ab; //00d992!  03b479
+
+// ? ---- MAIN COLOR ----
+$main-black-bg: #202020;
+$main-white-bg: #e5e2db;
+
+$main-gradient-bg: linear-gradient(90deg, #222831 4.13%, #202020 61.3%);
+$secondary-main-bg: #00ad74;
+
+// ? wawecolor
+// 8E714F tmavší hněda
+// A48867 světlejší hněda
+
+// ---------- FONTS ----------
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700&display=swap");
+
+$poppins: "Poppins", sans-serif;
+$roboto: "Roboto", sans-serif;
+
+//* --------------- REPEATING CODE ------------------
+
+$width-expand: 90%;
