@@ -233,7 +233,7 @@ header {
 .waweHero {
   height: 100%;
   width: 100%;
-  background: url(/Image/waweHero4.svg);
+  background: url(Image/waweHero4.svg);
   background-repeat: no-repeat;
   background-position: bottom center;
 }
@@ -393,7 +393,7 @@ header {
   grid-template-columns: 10% 1fr 1fr 10%;
   grid-template-rows: 8% 82% 10%;
   grid-template-areas: ". . carousel carousel" ". text carousel carousel" ". arrow arrow .";
-  background: url(/Image/heroCarousel.svg);
+  background: url(Image/heroCarousel.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-position-y: -40px;
@@ -543,7 +543,7 @@ header {
 
 .wawe {
   height: 100%;
-  background: linear-gradient(0deg, rgba(32, 32, 32, 0.4) 50%, rgba(32, 32, 32, 0) 80%), url(/Image/bannerGradient.svg);
+  background: linear-gradient(0deg, rgba(32, 32, 32, 0.4) 50%, rgba(32, 32, 32, 0) 80%), url(Image/bannerGradient.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -685,7 +685,7 @@ header {
   position: relative;
 }
 .button-more a .arrow-button {
-  content: url(/icon/arrow-right-circle.svg);
+  content: url(icon/arrow-right-circle.svg);
   position: absolute;
   max-height: 100%;
   max-width: 100%;
@@ -706,7 +706,7 @@ header {
 }
 
 .button-more:hover .arrow-button {
-  content: url(/icon/arrow-right-circle-white.svg);
+  content: url(icon/arrow-right-circle-white.svg);
   transform: translateX(10px);
 }
 
@@ -850,7 +850,7 @@ header {
 }
 
 .flex-sack::after {
-  content: url(/Image/PriceInCoffee.svg);
+  content: url(Image/PriceInCoffee.svg);
   position: absolute;
   display: block;
   bottom: -7.6rem;
@@ -1042,7 +1042,7 @@ header {
 }
 
 .head-oblouk {
-  background-image: url(/Image/waweGradient.svg);
+  background-image: url(Image/waweGradient.svg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1140,7 +1140,7 @@ header {
 .bg-sitting {
   width: 100%;
   height: 480px;
-  background: url(/Image/terasa.jpeg);
+  background: url(Image/terasa.jpeg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1155,7 +1155,7 @@ header {
 }
 
 .open-wawe {
-  background: url(/Image/openWawe.svg);
+  background: url(Image/openWawe.svg);
   background-position: center center;
   background-repeat: no-repeat;
   height: 227px;
@@ -1518,7 +1518,7 @@ footer {
 }
 
 .icons-footer1 {
-  content: url(/icon/instagram.svg);
+  content: url(icon/instagram.svg);
   height: 25px;
   width: 25px;
   transform: translateY(5px);
@@ -1526,7 +1526,7 @@ footer {
 }
 
 .icons-footer2 {
-  content: url(/icon/facebook.svg);
+  content: url(icon/facebook.svg);
   height: 25px;
   width: 25px;
   transform: translateY(5px);
