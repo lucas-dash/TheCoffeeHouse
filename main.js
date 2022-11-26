@@ -1,18 +1,3 @@
-// ? ------- NAVBAR -------
-
-const hamburger = document.querySelector(".hamburger");
-const navLinks = document.querySelector(".nav-links");
-const navbar = document.querySelector(".nav");
-
-// ? onclick menu on mobile device
-
-hamburger.addEventListener("click", function (e) {
-  e.preventDefault();
-  this.classList.toggle("is-active");
-  navLinks.classList.toggle("active");
-  navbar.classList.toggle("click");
-});
-
 // ? ------- HERO SLIDER ON LOAD-----
 
 const firstHero = document.querySelector(".hero-bg");
@@ -57,6 +42,20 @@ for (let i = 0; i < animation_elements.length; i++) {
 
   observer.observe(el);
 }
+// ? ------- NAVBAR -------
+
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const navbar = document.querySelector(".nav");
+
+// ? onclick menu on mobile device
+
+hamburger.addEventListener("click", function (e) {
+  e.preventDefault();
+  this.classList.toggle("is-active");
+  navLinks.classList.toggle("active");
+  navbar.classList.toggle("click");
+});
 
 // ?------ CHANGING IMAGE IN GALLERY-------
 
